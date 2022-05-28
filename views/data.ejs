@@ -1,0 +1,5 @@
+<body>
+    <% let a = JSON.parse(weatherData) %>
+     <% let b = JSON.stringify(a.current["temp_c"])  %>   
+     <p> <%- b  %> degree celcius </p>
+</body>
